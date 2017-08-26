@@ -5,7 +5,7 @@
 %global luapkgdir %{_datadir}/lua/%{luaver}
 
 Name:           luacov
-Version:        0.11.0
+Version:        0.12.0
 Release:        1%{?dist}
 Summary:        Coverage analysis tool for Lua scripts
 
@@ -52,5 +52,8 @@ install -p -m755 -D src/bin/luacov %{buildroot}%{_bindir}/luacov
 
 
 %changelog
+* Sat Aug 26 2017 Jajauma's Packages <jajauma@yandex.ru> - 0.12.0-1
+- Update to latest upstream release
+
 * Thu May 19 2016 Jajauma's Packages <jajauma@yandex.ru> - 0.11.0-1
 - Public release
